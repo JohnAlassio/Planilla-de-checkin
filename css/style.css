@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border-collapse:separate;
+    align-items:flex-end;
+    background-color: rgb(236, 221, 221);
+}
+
+th, td {
+    border: 1px solid rgba(162, 212, 159, 0.673);
+    padding: 8px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: rgb(238, 120, 120);
+}
+
+input[type="checkbox"] {
+    border-collapse:separate;
+    transform: scale(1.5);
+    display: flex;
+    align-items:flex-end;    
+    flex-direction: column;
+    
+}
+
+/* Este estilo le da a la tabla un ancho del 100%, hace que los bordes de las celdas se junte y les agregue un borde negro. También ajusta el espacio y el alineamiento del texto dentro de las celdas, y da un color de fondo gris claro a las cabeceras de la tabla. Además, agranda la escala de las casillas de verificación a 1.5. */
